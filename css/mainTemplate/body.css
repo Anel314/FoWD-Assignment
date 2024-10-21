@@ -1,14 +1,13 @@
+* {
+  margin: 0;
+}
+
 body {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    180deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(49, 0, 152, 1) 50%,
-    rgb(126, 2, 164) 100%
-  );
+  background: linear-gradient(180deg, #af90f8, #450bca, #220565);
   background-attachment: fixed;
-  font-family: Inter;
+  font-family: Monospace;
 }
-div {
+/* div {
   border: 1px, solid red;
-}
+} */

@@ -1,0 +1,7 @@
+.nav {
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #591ac1, #702ae2, #8a5cf5);
+}
