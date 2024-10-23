@@ -1,7 +1,66 @@
-.nav {
+nav {
   position: fixed;
   display: flex;
+  justify-content: space-between;
   top: 0;
   width: 100%;
-  background: linear-gradient(to right, #591ac1, #702ae2, #8a5cf5);
+  z-index: 10;
+}
+
+nav .nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+nav .nav-logo h2 {
+  font-size: 40px;
+  margin-left: 3px;
+}
+nav .nav-content {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-right: 20px;
+}
+nav .nav-content a {
+  color: black;
+}
+nav .nav-content *:hover {
+  color: aliceblue;
+}
+
+@keyframes FadeIN {
+  from {
+    background: none;
+    box-shadow: none;
+  }
+  to {
+    background: linear-gradient(to right, #591ac1, #702ae2, #8a5cf5);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@keyframes FadeOUT {
+  from {
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, #591ac1, #702ae2, #8a5cf5);
+  }
+  to {
+    background: none;
+    box-shadow: none;
+  }
+}
+
+.showNavbarBackground {
+  animation-name: FadeIN;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.hideNavbarBackground {
+  animation-name: FadeOUT;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }

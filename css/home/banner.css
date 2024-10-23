@@ -4,7 +4,6 @@
   height: 100vh;
   box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.3);
   margin-bottom: 10vh;
-  overflow: hidden;
   margin-bottom: 10vh;
 
   display: flex;
@@ -22,8 +21,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* Opacity for the background image */
-  z-index: -1; /* Keep the pseudo-element behind content */
+  opacity: 0.5;
+  z-index: -1;
 }
 .content {
   display: flex;
@@ -39,9 +38,6 @@
 .content * {
   width: fit-content;
   padding-inline: 20px;
-  /* border: solid black 3px; */
-  /* background-color: rgba(0, 0, 0, 0.3); */
-  /* border-radius: 70px; */
 }
 .content h1 {
   margin-bottom: 10px;
