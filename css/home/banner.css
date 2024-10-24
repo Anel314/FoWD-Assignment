@@ -1,16 +1,21 @@
-.banner {
+header {
   position: relative;
   width: 100%;
   height: 100vh;
   box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.3);
-  margin-bottom: 10vh;
-  margin-bottom: 10vh;
-
+  margin-bottom: 1vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.banner::before {
+header a {
+  font-size: 100px;
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+header::before {
   content: "";
   position: absolute;
   top: 0;
@@ -21,7 +26,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: -1;
 }
 .content {
@@ -33,11 +38,13 @@
   text-align: center;
   padding: 20px;
   margin-inline: 10%;
+  margin-top: 160px;
 }
 
 .content * {
   width: fit-content;
   padding-inline: 20px;
+  margin: 0;
 }
 .content h1 {
   margin-bottom: 10px;

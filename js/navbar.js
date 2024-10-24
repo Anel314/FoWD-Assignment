@@ -1,6 +1,6 @@
 var nav = document.querySelector("nav");
 window.addEventListener("scroll", function () {
-  if (window.scrollY > 20) {
+  if (window.scrollY > 30) {
     nav.classList.remove("hideNavbarBackground");
     nav.classList.add("showNavbarBackground");
   } else {

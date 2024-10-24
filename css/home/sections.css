@@ -1,0 +1,30 @@
+.section1 {
+  width: 100%;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
+  margin-top: 20px;
+}
+.section2content {
+  width: 30%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
