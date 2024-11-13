@@ -27,12 +27,12 @@
       style="background: #815cf5; position: absolute"
     >
       <div class="container-fluid">
-        <a href="/">
+        <a href="index.html">
           <img src="assets/logo.png" alt="" width="50px" />
         </a>
         <a
           class="navbar-brand"
-          href="/"
+          href="index.html"
           style="font-size: xx-large; margin-left: 10px"
         >
           AllSafe
@@ -51,8 +51,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="/pages/services.html">Services</a>
-            <a class="nav-link" href="/pages/about.html">About</a>
+            <a class="nav-link" href="./pages/services.html">Services</a>
+            <a class="nav-link" href="./pages/about.html">About</a>
           </div>
         </div>
       </div>
@@ -60,52 +60,248 @@
     <header>
       <div class="content">
         <h1>AllSafe</h1>
-        <p>Protecting you from the dangers of cyberspace.</p>
+        <p>Uncompromising Security for a Safer Tomorrow.</p>
       </div>
 
       <a href="#section1"><p>&darr;</p></a>
     </header>
 
     <section class="section1" id="section1">
-      <h1 align="center">Our Top Customers</h1>
+      <h1 align="center" class="mb-3">Our Top Customers</h1>
       <div class="cards">
         <div class="card" style="width: 18rem">
           <img src="assets/cardpic1.webp" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Google</h5>
-            <p class="card-text">Google is our Number 1 Customer</p>
-            <a
-              href="https://www.google.com"
-              target="_blank"
+            <p class="card-text">
+              We protect Google’s vast infrastructure, ensuring data integrity
+              and shielding against advanced cyber threats with cutting-edge
+              security protocols.
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
               class="btn btn-primary"
-              >Visit Google</a
+              data-bs-toggle="modal"
+              data-bs-target="#googleModal"
             >
+              Learn More
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="googleModal"
+              tabindex="-1"
+              aria-labelledby="googleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="googleModalLabel">
+                      More about our collaboration with Google
+                    </h1>
+
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      <strong>AllSafe</strong> plays a key role in securing
+                      Google's extensive global network. We have provided Google
+                      with <em>customized threat detection systems</em> and
+                      <strong>real-time monitoring tools</strong> to identify
+                      and mitigate potential threats before they escalate. Our
+                      collaboration ensures that Google’s vast infrastructure
+                      remains resilient against cyberattacks, maintaining the
+                      integrity and confidentiality of their user data.
+                    </p>
+                    <p>
+                      Our partnership also includes
+                      <strong>advanced data encryption</strong> methods to
+                      safeguard sensitive information in transit, ensuring
+                      compliance with international data protection regulations
+                      and keeping user data secure across various platforms.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card" style="width: 18rem">
-          <img src="assets/cardpic1.webp" class="card-img-top" alt="..." />
+          <img src="assets/cardpic2.png" class="card-img-top p-4" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Google</h5>
-            <p class="card-text">Google is our Number 1 Customer</p>
-            <a
-              href="https://www.google.com"
-              target="_blank"
+            <h5 class="card-title">Netflix</h5>
+            <p class="card-text">
+              Securing Netflix’s streaming platform and user data with robust
+              encryption and real-time threat monitoring to ensure uninterrupted
+              entertainment
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
               class="btn btn-primary"
-              >Visit Google</a
+              data-bs-toggle="modal"
+              data-bs-target="#Netflix"
             >
+              Learn More
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="Netflix"
+              tabindex="-1"
+              aria-labelledby="NetflixLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="NetflixLabel">
+                      More about our collaboration with Netflix
+                    </h1>
+
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      <strong>AllSafe</strong> has worked closely with
+                      <em>Netflix</em> to provide unparalleled protection for
+                      their streaming platform and user accounts. Through our
+                      partnership, we implemented
+                      <strong>advanced encryption techniques</strong> to protect
+                      user data during transmission and storage, ensuring the
+                      highest level of confidentiality.
+                    </p>
+                    <p>
+                      We also provide proactive
+                      <strong>anomaly detection systems</strong> that can
+                      identify suspicious activity and potential breaches in
+                      real-time, allowing Netflix to prevent threats before they
+                      disrupt services or compromise user privacy. Our joint
+                      efforts have led to a highly secure platform, ensuring
+                      millions of customers can enjoy uninterrupted and secure
+                      entertainment daily.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card" style="width: 18rem">
-          <img src="assets/cardpic1.webp" class="card-img-top" alt="..." />
+          <img src="assets/cardpic3.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Google</h5>
-            <p class="card-text">Google is our Number 1 Customer</p>
-            <a
-              href="https://www.google.com"
-              target="_blank"
+            <h5 class="card-title">Outlook</h5>
+            <p class="card-text">
+              Enhancing Outlook’s email security, preventing phishing attacks,
+              and ensuring the confidentiality of user communications across the
+              platform.
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
               class="btn btn-primary"
-              >Visit Google</a
+              data-bs-toggle="modal"
+              data-bs-target="#Outlook"
             >
+              Learn More
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="Outlook"
+              tabindex="-1"
+              aria-labelledby="OutlookLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="OutlookLabel">
+                      More about our collaboration with Outlook
+                    </h1>
+
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      <strong>AllSafe</strong> has partnered with
+                      <em>Outlook</em> to enhance their email security and
+                      protect users from phishing, spoofing, and other malicious
+                      email-based attacks. We’ve implemented
+                      <strong>next-generation spam filters</strong> and
+                      <strong>secure authentication protocols</strong> that help
+                      block threats before they reach end users.
+                    </p>
+                    <p>
+                      Additionally, our continuous
+                      <em>real-time threat analysis</em> ensures that Outlook’s
+                      users are protected against evolving cyber threats. Our
+                      efforts have significantly reduced the number of
+                      successful phishing attempts, ensuring the confidentiality
+                      of user communications and reinforcing Outlook’s
+                      reputation as a trusted platform for both personal and
+                      professional correspondence.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -115,34 +311,50 @@
       <div class="section2content">
         <h1>Our Mission</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          reiciendis perspiciatis, possimus sit suscipit fugiat iure nostrum
-          quo, enim illum laboriosam laborum? Nostrum, doloribus sapiente
-          eligendi qui veritatis quis culpa? Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Repellat, repellendus vitae porro ut
-          perferendis similique unde id temporibus nihil eaque culpa molestiae
-          vero aspernatur omnis a reiciendis perspiciatis repudiandae
-          consequatur.
+          At AllSafe, our mission is simple: to provide world-class
+          cybersecurity solutions that empower businesses to operate securely in
+          an ever-evolving digital world. We are dedicated to protecting our
+          clients' most valuable assets—<strong>data</strong>,
+          <strong>infrastructure</strong>, and <strong>reputation</strong>—by
+          delivering <em>innovative</em>, <em>proactive</em>, and
+          <em>reliable</em> security services. We believe in building trust
+          through <strong>transparency</strong>, <strong>collaboration</strong>,
+          and <strong>expertise</strong>. Our team of cybersecurity
+          professionals works tirelessly to
+          <strong>anticipate emerging threats</strong>, implement
+          <em>advanced security technologies</em>, and ensure that our clients
+          are always one step ahead of potential risks. Whether you're a small
+          startup or a global enterprise, our mission is to make sure your
+          digital environment remains <strong>resilient</strong>,
+          <strong>secure</strong>, and <strong>adaptable</strong> to the
+          challenges of tomorrow. Together, we can build a safer digital future,
+          one where your business can thrive without fear of cyber threats.
         </p>
       </div>
       <img src="assets/section2woman.jpg" id="section2Woman" />
     </section>
 
-    <section class="section3">
+    <section class="section3" id="section3">
       <div class="section3content">
         <h1>Our Goals</h1>
         <div class="imgcontainer">
-          <div class="img">
-            <img src="assets/logo.png" width="100px" alt="" />
-            <p>Picture 1</p>
+          <div class="img text-center">
+            <img src="assets/shield.png" width="100px" alt="" />
+            <p>
+              Cyber Resilience <br />
+              Preparing for the unexpected
+            </p>
           </div>
-          <div class="img">
-            <img src="assets/logo.png" width="100px" alt="" />
-            <p>Picture2</p>
+          <div class="img text-center">
+            <img src="assets/prevention.png" width="100px" alt="" />
+            <p>Threat Prevention<br />Stopping attacks before they happen.</p>
           </div>
-          <div class="img">
-            <img src="assets/logo.png" width="100px" alt="" />
-            <p>Picture3</p>
+          <div class="img text-center">
+            <img src="assets/innovation.png" width="100px" alt="" />
+            <p>
+              Continuous Innovation <br />
+              Adapting to evolving threats.
+            </p>
           </div>
         </div>
       </div>
@@ -154,16 +366,16 @@
           <a href="#" class="nav-link px-2 text-white">Home</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-white">Customers</a>
+          <a href="#section1" class="nav-link px-2 text-white">Customers</a>
         </li>
+
         <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-white">Mission & Goals</a>
-        </li>
-        <li class="nav-item">
-          <a href="/pages/about.html" class="nav-link px-2 text-white">About</a>
+          <a href="./pages/about.html" class="nav-link px-2 text-white"
+            >About</a
+          >
         </li>
       </ul>
-      <p class="text-center text-white">© 2024 Company, Inc</p>
+      <p class="text-center text-white">© 2024 AllSafe, Inc</p>
     </footer>
 
     <script
