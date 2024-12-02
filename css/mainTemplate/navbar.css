@@ -1,0 +1,43 @@
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+nav .nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+nav .nav-logo h2 {
+  font-size: 40px;
+  margin-left: 3px;
+}
+nav .nav-content {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-right: 20px;
+}
+nav .nav-content a {
+  color: black;
+}
+nav .nav-content *:hover {
+  color: aliceblue;
+}
+
+.navbar-nav a:hover {
+  background-color: antiquewhite;
+}
+.navbar-nav a {
+  border-radius: 30px;
+  margin-right: 10px;
+  width: fit-content;
+  padding: 10px;
+}
